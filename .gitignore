@@ -1,0 +1,62 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Environments
+.env
+.env.*.local
+
+# Backup files
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Build outputs
+/dist
+/build
+/__pycache__
+*.pyc
+*$py.class
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.conda/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Uploaded files (security)
+/backend/uploads/
+/frontend/uploads/
+
+# Reports
+/reports/
+/backend/reports/
+
+# Misc
+.cache
+.temp
